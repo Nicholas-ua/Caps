@@ -12,7 +12,7 @@
 jQuery.fn.threesixty = function(options){
 	options = options || {};
 	options.images = options.images || [];
-	options.method = options.method || "auto" //can be click, mouse move or auto
+	options.method = options.method || "click" //can be click, mouse move or auto
 	options.cycle = options.cycle || 1;
 	options.resetMargin = options.resetMargin || 0;
 	options.direction = options.direction || "forward";
