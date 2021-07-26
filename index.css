@@ -3,7 +3,7 @@ body {
   margin: auto;
 }
 
-@media screen and  (min-width: 599px) {
+@media screen and  (min-width: 499px) {
   .products {
       display: inline-flex;
       box-sizing: border-box;
