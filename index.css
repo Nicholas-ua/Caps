@@ -1,0 +1,19 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+@media screen and  (min-width: 599px) {
+  .products {
+      display: inline-flex;
+      box-sizing: border-box;
+      
+      border: 3px solid #73AD21;
+  }
+}
+
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
