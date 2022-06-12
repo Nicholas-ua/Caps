@@ -30,8 +30,8 @@ jQuery.fn.threesixty = function(options){
 	$(function() {
 		var cache = [];
 		var parent = $("<div>");
-		parent.css({height:pic.height(), width:pic.width(), overflow:"hidden", position:"relative"});
-		pic.wrap(parent).css({position:"relative",top:0,left:0});
+		parent.css({height:pic.height(), width:pic.width(), overflow:"hidden", position:"relative", margin: "auto"});/*position:"relative"*/
+		pic.wrap(parent).css({top:0,left:0});/*position:"relative"*/
 		parent = pic.parent();
 		//Binding the progress bar
 		var progressBg = $("<div></div>").css({width:parent.width()-200, height:10, backgroundColor:"black", position:"absolute","bottom":60,left:100 }).addClass("progressBg");
