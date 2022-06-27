@@ -2,18 +2,19 @@ body {
   max-width: 800px;
   margin: auto;
   background-image: url("images/background.jpg");
+  text-align: center;
 }
-
-/*@media screen and  (min-width: 499px) {
-  .products {
-      box-sizing: border-box;
-  }
-}*/
 
 @media screen and  (min-width: 600px) {
   .products {
       display: inline-flex;
-      /*box-sizing: border-box;*/
+      vertical-align: middle;
+  }
+
+  .cap1, .cap2{
+    width: 50%;
+    height: auto;
+    margin: 10px;
   }
 }
 
